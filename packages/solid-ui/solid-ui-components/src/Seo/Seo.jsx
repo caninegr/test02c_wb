@@ -60,19 +60,13 @@ const Seo = ({
   metaTags.push({ name: 'initial-scale', content: '1.0' })
 
   return (
-<Helmet
+    <Helmet
       htmlAttributes={{
         lang: 'en'
       }}
-      title='test'
+      title={title}
       titleTemplate={`%s | ${site.title}`}
-      meta={[
-    ...metaTags,
-    {
-      name: 'google-site-verification',
-      content: 'bSx_ExkunoLxufoEE0QKZHzlf2QWITlgu36v9KXk8nY'
-    }
-  ]}
+      meta={metaTags}
     />
   )
 }

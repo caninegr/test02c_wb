@@ -15,11 +15,13 @@ import WhyChooseUs from '@solid-ui-blocks/Features/Block01'
 import FeatureTwo from '@solid-ui-blocks/FeaturesWithPhoto/Block06'
 import FeatureThree from '@solid-ui-blocks/FeaturesWithPhoto/Block03'
 import FeatureThreeMore from '@solid-ui-blocks/Features/Block06'
+import WithRecentPosts from '@solid-ui-blocks/WithRecentPosts'
 import Blog from '@solid-ui-blocks/Blog/Block01'
 import Footer from '@solid-ui-blocks/Footer/Block01'
 import { normalizeBlockContentNodes } from '@blocks-helpers'
 import theme from './_theme'
 import styles from './_styles'
+
 
 const IndexPage = props => {
   const { allBlockContent } = props.data
@@ -68,7 +70,12 @@ const IndexPage = props => {
       </Container>
       <Divider space='5' />
       <Divider space='5' />
-      <Blog content={content['latest-blogs']} />
+
+
+      <WithRecentPosts>
+  <Blog content={content['latest-blogs']} />
+</WithRecentPosts>
+      
       <Divider space='5' />
       <Footer content={content['footer']} />
     </Layout>
