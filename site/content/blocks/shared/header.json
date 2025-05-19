@@ -1,0 +1,52 @@
+{
+  "images": [
+    {
+      "src": "../../assets/flexiblocks/shared/logo.png",
+      "alt": "alt text"
+    }
+  ],
+  "collection": [
+    {
+      "buttons": [
+        {
+          "text": "Landing Pages",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": []
+        },
+        {
+          "text": "Pages",
+          "variant": "links.nav-dark",
+          "type": "SUB",
+          "collection": [
+            {
+              "buttons": []
+            },
+            {
+              "container": {
+                "bg": "omegaLighter"
+              },
+              "buttons": []
+            }
+          ]
+        },
+        {
+          "text": "Modals",
+          "type": "SUB",
+          "variant": "links.nav-dark",
+          "buttons": []
+        }
+      ]
+    },
+    {
+      "buttons": [
+        {
+          "text": "Contact Us",
+          "type": "MODAL",
+          "link": "contact",
+          "variant": "secondary"
+        }
+      ]
+    }
+  ]
+}
