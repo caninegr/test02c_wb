@@ -13,18 +13,18 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://test02c.netlify.app',
-        sitemap: 'https://test02c.netlify.app/sitemap-0.xml',
+        host: 'https://test02cwb.netlify.app',
+        sitemap: 'https://test02cwb.netlify.app/sitemap-0.xml',
         policy: [{userAgent: '*', allow: '/'}]
       }
     }
   ],
   // Customize your site metadata
   siteMetadata: {
-    title: 'cane sentio dev site',
+    title: 'cane sentio dev site wb',
     name: 'canesentio',
-    description: 'my dev site...',
+    description: 'my dev site wb...',
     //siteUrl: process.env.URL || process.env.VERCEL_URL
-    siteUrl: 'https://test02c.netlify.app'
+    siteUrl: 'https://test02cwb.netlify.app'
   }
 }
