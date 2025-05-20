@@ -20,7 +20,18 @@
           "type": "SUB",
           "collection": [
             {
-              "buttons": []
+              "buttons": [
+                    {
+                      "text": "Services",
+                      "type": "PAGE",
+                      "link": "/services/",
+                      "variant": "links.nav-dark",
+                      "icon": {
+                        "src": "../../assets/flexiblocks/icons/bxs-window-alt.svg",
+                        "color": "omegaDark"
+                      }
+                    }
+              ]
             },
             {
               "container": {

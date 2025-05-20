@@ -74,7 +74,7 @@
         {
           "text": "Get it on Google Play",
           "type": "APP",
-          "link": "",
+          "link": "https://play.google.com/",
           "variant": "google"
         }
       ]
@@ -138,7 +138,7 @@
         {
           "text": "Web Application",
           "type": "PAGE",
-          "link": "",
+          "link": "https://play.google.com/store",
           "variant": "dark",
           "bg": "#000"
         }
@@ -203,7 +203,7 @@
         {
           "text": "Download on the App Store",
           "type": "APP",
-          "link": "",
+          "link": "https://apps.apple.com/",
           "variant": "apple"
         }
       ]
