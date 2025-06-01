@@ -22,7 +22,7 @@ module.exports = {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://thetruthaboutdogs.gr',
-        sitemap: 'https://https://thetruthaboutdogs.gr/sitemap-0.xml',
+        sitemap: 'https://thetruthaboutdogs.gr/sitemap-0.xml',
         policy: [{userAgent: '*', allow: '/'}]
       }
     }
