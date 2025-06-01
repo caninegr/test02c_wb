@@ -21,8 +21,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://test02cwb.netlify.app',
-        sitemap: 'https://test02cwb.netlify.app/sitemap-0.xml',
+        host: 'https://thetruthaboutdogs.gr',
+        sitemap: 'https://https://thetruthaboutdogs.gr/sitemap-0.xml',
         policy: [{userAgent: '*', allow: '/'}]
       }
     }
@@ -43,7 +43,7 @@ module.exports = {
     address: 'New York, NY',
     email: 'email@example.com',
     phone: '+1 (888) 888-8888',
-    siteUrl: 'https://test02cwb.netlify.app',
+    siteUrl: 'https://https://thetruthaboutdogs.gr',
 
     //Site Social Media Links
     social: [
