@@ -37,12 +37,12 @@ module.exports = {
   // },
   siteMetadata: {
     //General Site Metadata
-    title: 'FlexiBlog Theme',
-    name: 'FlexiBlog',
-    description: 'My site description...',
-    address: 'New York, NY',
-    email: 'email@example.com',
-    phone: '+1 (888) 888-8888',
+    title: 'Cane Sentio Dev',
+    name: 'CaneSentio',
+    description: 'Dog training, behaviour and boarding',
+    address: 'Drymos, Thessaloniki',
+    email: 'info@cane.gr',
+    phone: '+30 2311 115099',
     siteUrl: 'https://thetruthaboutdogs.gr',
 
     //Site Social Media Links
