@@ -43,7 +43,7 @@ module.exports = {
     address: 'New York, NY',
     email: 'email@example.com',
     phone: '+1 (888) 888-8888',
-    siteUrl: 'https://https://thetruthaboutdogs.gr',
+    siteUrl: 'https://thetruthaboutdogs.gr',
 
     //Site Social Media Links
     social: [
