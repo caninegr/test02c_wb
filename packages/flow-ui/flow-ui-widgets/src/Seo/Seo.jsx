@@ -111,13 +111,13 @@ const Seo = ({
           '@type': 'ListItem',
           position: 1,
           name: site.name,
-          item: siteUrl
+          item: 'https://thetruthaboutdogs.gr'
         },
         {
           '@type': 'ListItem',
           position: 2,
           name: category.name,
-          item: `${siteUrl}${category.slug}`
+          item: `${'https://thetruthaboutdogs.gr'}${category.slug}`
         }
       ]
     })
